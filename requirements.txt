@@ -1,0 +1,37 @@
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# LangGraph & LangChain
+langgraph==0.0.62
+langchain==0.1.0
+langchain-anthropic==0.1.0
+
+# Data Sources
+yfinance==0.2.28
+requests==2.31.0
+beautifulsoup4==4.12.2
+feedparser==6.0.10
+
+# PDF Processing
+pdfplumber==0.10.0
+PyMuPDF==1.23.0
+
+# Vector Store & Embeddings
+chromadb==0.4.18
+sentence-transformers==2.2.2
+
+# Knowledge Graph
+neo4j==5.15.0
+
+# Utilities
+python-dotenv==1.0.0
+asyncio==3.4.3
+aiofiles==23.2.1
+websockets==12.0
+
+# Development
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
